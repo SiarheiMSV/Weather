@@ -80,5 +80,11 @@ public class SiarheiMTest {
 //                By.xpath('')
 //        )
 
-//    }
+    //    }
+    @Test
+    public void testH2Text_WhenSearchingCityCountry1() throws InterruptedException {
+
+        System.setProperty("webdriver.chrome.driver", "/Applications/chromedriver");
+        WebDriver driver = new ChromeDriver();
+    }
 }
