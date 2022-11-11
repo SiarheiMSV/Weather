@@ -5,7 +5,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-public class SiarheiMTest
+public class SiarheiMTest {
     @Test
     public void testH2Text_WhenSearchingCityCountry() throws InterruptedException {
 
